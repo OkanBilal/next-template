@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\" "
+  },
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "next": "latest",
+    "next-mdx": "^0.6.1",
+    "next-themes": "^0.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.5.0",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
